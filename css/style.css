@@ -231,3 +231,26 @@ margin: 0 0 40px 0;
 .my-photo{
     max-width: 370px;
 }
+
+.languages{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.languages span{
+    margin-right: 10px;
+}
+
+.languages span:last-child {
+    margin-right: 0px;
+}
+
+.current-lang{
+    color: #F86D3A;
+    font-weight: 700;
+}
+
+.switch-lang{
+    color: #000;
+    font-weight: 700;
+}
